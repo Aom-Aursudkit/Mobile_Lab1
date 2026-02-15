@@ -1,0 +1,6 @@
+source;share/icp_refinement/hook/pythonpath.ps1
+source;share/icp_refinement/hook/pythonpath.dsv
+source;share/icp_refinement/hook/pythonpath.sh
+source;share/icp_refinement/hook/ament_prefix_path.ps1
+source;share/icp_refinement/hook/ament_prefix_path.dsv
+source;share/icp_refinement/hook/ament_prefix_path.sh

@@ -1,0 +1,3 @@
+[console_scripts]
+icp_node = icp_refinement.icp_node:main
+

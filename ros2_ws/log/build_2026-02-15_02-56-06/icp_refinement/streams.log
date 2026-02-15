@@ -1,0 +1,27 @@
+[0.544s] Invoking command in '/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/src/icp_refinement': PYTHONPATH=/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/icp_refinement build --build-base /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/build install --record /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/install.log --single-version-externally-managed install_data
+[0.695s] running egg_info
+[0.696s] writing ../../build/icp_refinement/icp_refinement.egg-info/PKG-INFO
+[0.696s] writing dependency_links to ../../build/icp_refinement/icp_refinement.egg-info/dependency_links.txt
+[0.696s] writing entry points to ../../build/icp_refinement/icp_refinement.egg-info/entry_points.txt
+[0.696s] writing requirements to ../../build/icp_refinement/icp_refinement.egg-info/requires.txt
+[0.696s] writing top-level names to ../../build/icp_refinement/icp_refinement.egg-info/top_level.txt
+[0.697s] reading manifest file '../../build/icp_refinement/icp_refinement.egg-info/SOURCES.txt'
+[0.698s] writing manifest file '../../build/icp_refinement/icp_refinement.egg-info/SOURCES.txt'
+[0.698s] running build
+[0.698s] running build_py
+[0.698s] copying icp_refinement/icp_node.py -> /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/build/lib/icp_refinement
+[0.698s] copying icp_refinement/icp_node_old.py -> /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/build/lib/icp_refinement
+[0.698s] running install
+[0.698s] running install_lib
+[0.699s] copying /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/build/lib/icp_refinement/icp_node.py -> /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages/icp_refinement
+[0.699s] copying /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/build/lib/icp_refinement/icp_node_old.py -> /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages/icp_refinement
+[0.699s] byte-compiling /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages/icp_refinement/icp_node.py to icp_node.cpython-310.pyc
+[0.701s] byte-compiling /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages/icp_refinement/icp_node_old.py to icp_node_old.cpython-310.pyc
+[0.702s] running install_data
+[0.702s] running install_egg_info
+[0.703s] removing '/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages/icp_refinement-0.0.0-py3.10.egg-info' (and everything under it)
+[0.703s] Copying ../../build/icp_refinement/icp_refinement.egg-info to /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages/icp_refinement-0.0.0-py3.10.egg-info
+[0.704s] running install_scripts
+[0.717s] Installing icp_node script to /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/icp_refinement
+[0.717s] writing list of installed files to '/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/install.log'
+[0.733s] Invoked command in '/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/src/icp_refinement' returned '0': PYTHONPATH=/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/icp_refinement build --build-base /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/build install --record /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/install.log --single-version-externally-managed install_data

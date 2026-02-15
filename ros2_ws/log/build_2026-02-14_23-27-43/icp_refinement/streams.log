@@ -1,0 +1,21 @@
+[0.660s] Invoking command in '/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/src/icp_refinement': PYTHONPATH=/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/icp_refinement build --build-base /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/build install --record /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/install.log --single-version-externally-managed install_data
+[0.840s] running egg_info
+[0.841s] writing ../../build/icp_refinement/icp_refinement.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/icp_refinement/icp_refinement.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/icp_refinement/icp_refinement.egg-info/entry_points.txt
+[0.841s] writing requirements to ../../build/icp_refinement/icp_refinement.egg-info/requires.txt
+[0.841s] writing top-level names to ../../build/icp_refinement/icp_refinement.egg-info/top_level.txt
+[0.842s] reading manifest file '../../build/icp_refinement/icp_refinement.egg-info/SOURCES.txt'
+[0.843s] writing manifest file '../../build/icp_refinement/icp_refinement.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.843s] running build_py
+[0.843s] running install
+[0.844s] running install_lib
+[0.844s] running install_data
+[0.844s] running install_egg_info
+[0.846s] removing '/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages/icp_refinement-0.0.0-py3.10.egg-info' (and everything under it)
+[0.846s] Copying ../../build/icp_refinement/icp_refinement.egg-info to /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages/icp_refinement-0.0.0-py3.10.egg-info
+[0.846s] running install_scripts
+[0.863s] Installing icp_node script to /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/icp_refinement
+[0.863s] writing list of installed files to '/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/install.log'
+[0.887s] Invoked command in '/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/src/icp_refinement' returned '0': PYTHONPATH=/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/install/icp_refinement/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/icp_refinement build --build-base /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/build install --record /home/aom/Documents/GitHub/Mobile_Lab1/ros2_ws/build/icp_refinement/install.log --single-version-externally-managed install_data
