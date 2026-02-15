@@ -15,7 +15,6 @@ RAW_BAG = "ros2_ws/seq01"
 # ==========================================
 
 def read_bag(bag_path, topics):
-    """Generic reader to extract x,y from specified topics."""
     results = {topic: {'x': [], 'y': []} for topic in topics}
     
     reader = rosbag2_py.SequentialReader()
