@@ -213,21 +213,21 @@ class EKFNode(Node):
         self.ekf_odom_pub.publish(ekf_odom)
         
         # Broadcast TF
-        t = TransformStamped()
-        t.header.stamp = ekf_odom.header.stamp
-        t.header.frame_id = 'odom'
-        t.child_frame_id = 'base_link'
-        t.transform.translation.x = self.x
-        t.transform.translation.y = self.y
-        t.transform.translation.z = 0.0
-        t.transform.rotation = self.yaw_to_quaternion(self.theta)
-        self.tf_broadcaster.sendTransform(t)
+        # t = TransformStamped()
+        # t.header.stamp = ekf_odom.header.stamp
+        # t.header.frame_id = 'odom'
+        # t.child_frame_id = 'base_link'
+        # t.transform.translation.x = self.x
+        # t.transform.translation.y = self.y
+        # t.transform.translation.z = 0.0
+        # t.transform.rotation = self.yaw_to_quaternion(self.theta)
+        # self.tf_broadcaster.sendTransform(t)
 
     def imu_callback(self, msg: Imu):
         current_yaw = self.quaternion_to_yaw(msg.orientation)
         
         if self.first_imu:
-            self.imu_yaw_offset = math.radians(30.0)
+            self.imu_yaw_offset = math.radians(35.0)
             self.first_imu = False
         
         calibrated_yaw = self.normalize_angle(current_yaw - self.imu_yaw_offset)
